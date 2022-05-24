@@ -1,12 +1,12 @@
 import './App.css';
-import db from './firebase';
+
+import Sugerencias from './components/Sugerencias/Sugerencias';
 
 function App() {
-  console.log(db);
-
   return (
     <div className="App">
       <p>Web 0xTec</p>
+      <Sugerencias />
     </div>
   );
 }
